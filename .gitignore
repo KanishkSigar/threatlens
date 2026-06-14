@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database
+*.db
+*.sqlite3
+
+# ML model files
+backend/app/ml/model.pkl
+backend/app/ml/scaler.pkl
+backend/app/ml/datasets/*.csv
+backend/app/ml/datasets/*.zip
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# iOS
+ios/ThreatLens.xcodeproj/xcuserdata/
+ios/ThreatLens.xcworkspace/xcuserdata/
+ios/*.xcuserstate
+ios/DerivedData/
+ios/Pods/
+
+# Logs
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
